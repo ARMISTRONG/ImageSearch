@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/12/14 9:44:39。
+     1>项目“E:\Temple\Temple\Temple.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Temple.cpp
+         Temple.cpp
+     1>e:\temple\temple\OrbFeature.h(114): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\temple\temple\OrbFeature.h(102) : 忽略“i”的定义
+                 e:\temple\temple\OrbFeature.h(84) : 使用“i”的定义
+     1>e:\temple\temple\OrbFeature.h(116): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\temple\temple\OrbFeature.h(102) : 忽略“i”的定义
+                 e:\temple\temple\OrbFeature.h(84) : 使用“i”的定义
+     1>Temple.cpp(50): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Temple.cpp(51): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Temple\Release\Temple.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_nonfree249.lib opencv_objdetect249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_ts249.lib opencv_video249.lib opencv_videostab249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Temple\Release\Temple.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Temple\Release\Temple.lib" /MACHINE:X86 /SAFESEH Release\class.obj
+         Release\stdafx.obj
+         Release\Temple.obj
+         Release\VocabularyTree.obj
+         正在生成代码
+         已完成代码的生成
+         Temple.vcxproj -> E:\Temple\Release\Temple.exe
+     1>已完成生成项目“E:\Temple\Temple\Temple.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.40
